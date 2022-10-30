@@ -1,0 +1,76 @@
+#main {
+    width:99%;
+    height: 100%;
+    background-color: #cccccc;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding:0.5%;
+}
+#header{
+    width: 98%;
+    height: 10%;
+    background-color:#eaeaea;
+    padding: 0% 1%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    border-radius: 7px;
+    border: 2px ridge #3F51B5;
+}
+#head{
+    width:75%
+}
+#navcontainer{
+    width:25%;
+    height:100%;
+}
+#iconcontainer{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+#icons{
+    margin:0% 10%;
+}
+#icon{
+    text-decoration: none;
+}
+#body{
+    width:98%;
+    height:89%;
+    background-color: #eaeaea;
+    padding:1%;
+    margin:0.5% 0%;
+    border-radius: 7px;
+    border: 2px ridge #3F51B5;
+}
+#card {
+    box-shadow: 5px 8px 10px 0 #3F51B588;
+    transition: 0.3s;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    height: 40%;
+}
+#card:hover {
+    box-shadow: 6px 9px 10px 0 #3F51B5cc;
+    cursor: pointer;
+}
+#img{
+    width: 100%;
+    height:80%;
+    object-fit: cover;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+#cardname {
+    height:20%;
+    align-items: center;
+    font-size: medium;
+    padding:0px 10px;
+}
