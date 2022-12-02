@@ -1,0 +1,136 @@
+table {
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #3F51B5;
+    overflow: hidden;
+}
+.no_footer{
+    border-radius: 14px;
+}
+tr.even{
+    background-color: #00000022;
+}
+tr:hover{
+    color: white;
+    background-color: #3F51B5cc;
+    cursor: pointer;
+}
+tr:active{
+    background-color: #3F51B5;
+}
+th{
+    color: white;
+    font-weight: bolder;
+    background-color: #3F51B5;
+    padding: 5px 8px;
+    box-sizing: content-box;
+}
+td{
+    border-top: 1px solid #3F51B566;
+    border-left: 1px solid #3F51B566;
+    padding: 5px 8px;
+    box-sizing: content-box;
+}
+th.sorting, th.sorting_asc,
+th.sorting_desc, th.sorting_desc_disabled,th.sorting_asc_disabled{
+    position: relative;
+    padding-right: 26px
+}
+th.sorting:before,
+th.sorting_asc:before,
+th.sorting_desc:before,
+th.sorting_asc_disabled:before,
+th.sorting_desc_disabled:before,
+td.sorting:before,
+td.sorting_asc:before,
+td.sorting_desc:before,
+td.sorting_asc_disabled:before,
+td.sorting_desc_disabled:before {
+    position: absolute;
+    display: block;
+    opacity: .2;
+    right: 10px;
+    line-height: 9px;
+    font-size: .9em;
+    bottom: 50%;
+    content: "▴"
+}
+th.sorting:after,
+th.sorting_asc:after,
+th.sorting_desc:after,
+th.sorting_asc_disabled:after,
+th.sorting_desc_disabled:after,
+td.sorting:after,
+td.sorting_asc:after,
+td.sorting_desc:after,
+td.sorting_asc_disabled:after,
+td.sorting_desc_disabled:after {
+    position: absolute;
+    display: block;
+    opacity: .2;
+    right: 10px;
+    line-height: 9px;
+    font-size: .9em;
+    top: 50%;
+    content: "▾"
+}
+th.sorting_asc:before,
+th.sorting_desc:after,
+td.sorting_asc:before,
+td.sorting_desc:after {
+    opacity: .9
+}
+th.sorting_desc_disabled:after,
+th.sorting_asc_disabled:before,
+td.sorting_desc_disabled:after,
+td.sorting_asc_disabled:before {
+    display: none
+}
+div.dataTables_scrollBody table.dataTable thead>tr>th:before,
+div.dataTables_scrollBody table.dataTable thead>tr>th:after,
+div.dataTables_scrollBody table.dataTable thead>tr>td:before,
+div.dataTables_scrollBody table.dataTable thead>tr>td:after {
+    display: none
+}
+.dataTables_wrapper {
+    position: relative;
+    clear: both
+}
+.dataTables_wrapper:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0
+}
+div.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -26px;
+    text-align: center;
+    padding: 2px
+}
+.dataTables_wrapper label {
+    float: right;
+    width: 19em;
+    margin: 1em;
+}
+.dataTables_wrapper .dataTables_filter input {
+    width: 75%;
+    border: 1px solid #3F51B5;
+    border-radius: 14px;
+    padding: 7px 14px;
+    background-color: #ffffffaa;
+    margin-left: 4px;
+    /* float: right; */
+}
+.dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding-top: .755em;
+    margin-left: 1.2em;
+}

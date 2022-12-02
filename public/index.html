@@ -11,7 +11,24 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>MyAutoLog</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('table').DataTable({
+          scrollY: '65vh',
+          scrollCollapse: true,
+          paging: false,
+        });
+      })
+      $(document).ready(function(){
+        $('table').DataTable({
+          scrollY: '65vh',
+          scrollCollapse: true,
+          paging: false,
+        });
+      })
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
