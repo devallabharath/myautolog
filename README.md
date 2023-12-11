@@ -39,9 +39,7 @@
 ## About The Project
 
 ### Images
-<img src="public/img/login.png" alt="Logo" width="360" height="180">
-<img src="public/img/garage.png" alt="Logo" width="360" height="180">
-<img src="public/img/trips.png" alt="Logo" width="360" height="180">
+<img src="public/img/login.png" alt="Logo" width="360" height="180"><img src="public/img/garage.png" alt="Logo" width="360" height="180"><img src="public/img/trips.png" alt="Logo" width="360" height="180">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
