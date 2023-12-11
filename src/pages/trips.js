@@ -118,15 +118,16 @@ export default function Trips (){
 
 const css = {
     page: {
-        width:'99%',
-        height: '98%',
+        width:'100%',
+        height: '100%',
         display:'flex',
         flexDirection: 'column',
-        padding:'0.5%',
+        backgroundColor: '#dddddd',
+        // padding:'0.5%',
     },
     body:{
         width:'100%',
-        height:'99.5%',
+        height:'98%',
         // padding:'0.5%',
         marginTop:'0.5%',
         borderRadius: '7px',
@@ -137,7 +138,7 @@ const css = {
     leftbar:{
         width:'25%',
         backgroundColor:'#f7f7f7',
-        borderRadius: '14px',
+        // borderRadius: '14px',
         padding: '1%',
         display: 'flex',
         flexDirection: 'column',
@@ -204,7 +205,7 @@ const css = {
     tripsmain:{
         width:'73.5%',
         float: 'right',
-        borderRadius: '14px',
+        // borderRadius: '14px',
         backgroundColor: '#fafafa',
         marginLeft: '0.5%',
         padding: '0 10px',

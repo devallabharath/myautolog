@@ -27,6 +27,10 @@ export default function Showcase () {
         }
     };
 
+    const ScrollTo=()=>{
+        document.getElementById('download').scrollIntoView({behavior: 'smooth'}, true)
+    };
+
     return(
         <div id='h_showcase' style={css.showcasediv} onScroll={()=>{setanimate(true)}}>
             <div id='h_gallery' style={css.gallery}>
@@ -50,6 +54,7 @@ export default function Showcase () {
                 <p>Add remainders and alerts.</p>
                 <div style={css.buttondiv}>
                     <button style={css.button}>Get Started</button>
+                    <button style={css.button} onClick={ScrollTo}>Download</button>
                 </div>
             </div>
         </div>
@@ -117,9 +122,10 @@ const css = {
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
+        gap: '2%'
     },
     button:{
-        width: '70%',
+        width: '40%',
         color: '#f7f7f7',
         fontSize: '18px',
         letterSpacing: '2px',

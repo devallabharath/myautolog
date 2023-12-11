@@ -21,7 +21,10 @@ export function Homeheader (props) {
     const Menu=props.func
     return(
         <div style={style.header}>
-            <div id='headerhead' style={style.head}>MyAutoLog</div>
+            <div id='headerhead' style={style.head}>
+                <img style={style.headlogo} src="/logo512.png" alt='myautolog'></img>
+                <p>MyAutoLog</p>
+            </div>
             <div style={style.navcontainer}>
                 <div id='headerbar' onClick={Menu} style={style.navicon}>
                     <FaBars/>
@@ -86,8 +89,9 @@ const style={
     header:{height:'10%', minHeight:'70px', color:'#f7f7f7', backgroundColor:'#2e4da7', padding:'0% 2%',
         display:'flex', flexDirection:'row', alignItems:'center', alignContent:'space-between',
     },
-    head:{width:'50%', fontWeight:'600', cursor:'default',
+    head:{display:'flex', alignContent:'center', width:'50%', fontWeight:'600', cursor:'default',
     },
+    headlogo:{width:'50px', height:'50px', alignSelf:'center', paddingBottom:'1.7%'},
     navcontainer:{width:'50%', display:'flex', flexDirection:'row-reverse',
         alignItems:'center', paddingRight:'1.5%',
     },
@@ -98,6 +102,7 @@ const style={
         backgroundColor:'none', cursor:'pointer',
     },
 }
+
 const css = {
     header:{color:'#f7f7f7', backgroundColor:'#2e4da7', height:'10%', minHeight:'70px', padding:'0% 1%',
         display:'flex', flexDirection:'row', alignItems:'center', alignContent:'space-between',
