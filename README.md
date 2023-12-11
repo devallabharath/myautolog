@@ -40,9 +40,9 @@
 
 <details>
   <summary>Images</summary>
-  [!login](./public/img/login.png)
-  [!garage](./public/img/garage.png)
-  [!trips](./public/img/trips.png)
+  <img src="public/img/login.png" alt="Logo" width="360" height="180">
+  <img src="public/img/garage.png" alt="Logo" width="360" height="180">
+  <img src="public/img/trips.png" alt="Logo" width="360" height="180">
 </details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
