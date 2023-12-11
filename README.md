@@ -38,6 +38,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<details>
+  <summary>Images</summary>
+  [!login](./public/img/login.png)
+  [!garage](./public/img/garage.png)
+  [!trips](./public/img/trips.png)
+</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
